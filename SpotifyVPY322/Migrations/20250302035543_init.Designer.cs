@@ -12,8 +12,8 @@ using SpotifyVPY322.Data;
 namespace SpotifyVPY322.Migrations
 {
     [DbContext(typeof(SpotifyDataContext))]
-    [Migration("20250216113419_Init")]
-    partial class Init
+    [Migration("20250302035543_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -16,4 +16,9 @@ public class ArtistRepository(SpotifyDataContext context) : IArtistRepository
                         PhotoUrl = artist.PhotoUrl
                      }).ToListAsync();
     }
+
+    public Task<GetAllArtistDto> GetDetailsAsync(int id)
+    {
+        throw new NotImplementedException();
+    }
 }
