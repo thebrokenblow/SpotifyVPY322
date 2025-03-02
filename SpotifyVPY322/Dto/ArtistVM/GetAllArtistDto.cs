@@ -1,4 +1,4 @@
-﻿namespace SpotifyVPY322.Dto.Artist;
+﻿namespace SpotifyVPY322.Dto.ArtistVM;
 
 public class GetAllArtistDto
 {
